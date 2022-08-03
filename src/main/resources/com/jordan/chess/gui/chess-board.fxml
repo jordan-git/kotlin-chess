@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<GridPane fx:id="grid" minHeight="400.0" minWidth="400.0" prefHeight="800.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.jordan.chess.gui.ChessController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" prefHeight="100.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+
+    <Rectangle fx:id="grid00" fill="white" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid01" fill="black" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid02" fill="white" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid03" fill="black" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid04" fill="white" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid05" fill="black" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid06" fill="white" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+    <Rectangle fx:id="grid07" fill="black" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+
+    <Rectangle fx:id="grid10" fill="white" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid11" fill="black" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid12" fill="black" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid13" fill="white" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid14" fill="black" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid15" fill="white" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid16" fill="black" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+    <Rectangle fx:id="grid17" fill="white" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+
+    <Rectangle fx:id="grid20" fill="white" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid21" fill="black" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid22" fill="white" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid23" fill="black" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid24" fill="white" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid25" fill="black" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid26" fill="white" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+    <Rectangle fx:id="grid27" fill="black" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+
+    <Rectangle fx:id="grid30" fill="black" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid31" fill="white" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid32" fill="black" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid33" fill="white" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid34" fill="black" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid35" fill="white" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid36" fill="black" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+    <Rectangle fx:id="grid37" fill="white" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+
+    <Rectangle fx:id="grid40" fill="white" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid41" fill="black" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid42" fill="white" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid43" fill="black" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid44" fill="white" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid45" fill="black" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid46" fill="white" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+    <Rectangle fx:id="grid47" fill="black" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+
+    <Rectangle fx:id="grid50" fill="black" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid51" fill="white" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid52" fill="black" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid53" fill="white" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid54" fill="black" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid55" fill="white" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid56" fill="black" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    <Rectangle fx:id="grid57" fill="white" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+
+    <Rectangle fx:id="grid60" fill="white" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid61" fill="black" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid62" fill="white" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid63" fill="black" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid64" fill="white" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid65" fill="black" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid66" fill="white" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+    <Rectangle fx:id="grid67" fill="black" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+
+    <Rectangle fx:id="grid70" fill="black" height="100.0" width="100.0" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid71" fill="white" height="100.0" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid72" fill="black" height="100.0" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid73" fill="white" height="100.0" width="100.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid74" fill="black" height="100.0" width="100.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid75" fill="white" height="100.0" width="100.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid76" fill="black" height="100.0" width="100.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+    <Rectangle fx:id="grid77" fill="white" height="100.0" width="100.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+</GridPane>
